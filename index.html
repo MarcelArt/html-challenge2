@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script> -->
+    <link rel="stylesheet" href="styles.css" />
+    <link
+			href="https://unpkg.com/material-components-web@latest/dist/material-components-web.min.css"
+			rel="stylesheet"
+		/>
+		<script src="https://unpkg.com/material-components-web@latest/dist/material-components-web.min.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Material+Icons|Material+Icons+Outlined|Material+Icons+Two+Tone|Material+Icons+Round|Material+Icons+Sharp" rel="stylesheet">
+  </head>
+  <body>
+    <div class="theme">
+      <div class="upper"></div>
+      <div class="lower"></div>
+    </div>
+    <div class="primary">
+      <h1 style="color: white; text-align: center;">Simple Pricing!</h1>
+      <div style="display: flex; flex-direction: column; align-items: center;">
+        <p style="color: white; width: 500px; text-align: center;">The most advanced customer support tools with a simple and affordable pricing. And you can always try for 30 days, free!"</p>
+      </div>
+      <div class="cards">
+        <div class="card">
+          <div class="card-header">
+            <p>BASIC</p>
+          </div>
+          <div class="card-content">
+            <div class="card-price">
+              <p style="align-self: flex-start; margin-top: 30px; margin-right: 5px;">$ </p>
+              <p style="font-size: 24pt;">4</p>
+              <p style="align-self: flex-end; margin-bottom: 30px; margin-left: 5px;">/month</p>
+            </div>
+            <hr>
+            <p><b>10</b> Projects</p>
+            <p><b>10</b> Pages</p>
+            <p><b>10</b> Mb Disk Space</p>
+            <div style="text-align: center;">
+              <button onclick="buy1()">
+                BUY NOW 
+              </button>
+            </div>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-header">
+            <p>STANDARD</p>
+            <p>Save 15%</p>
+          </div>
+          <div class="card-content">
+            <div class="card-price">
+              <p style="align-self: flex-start; margin-top: 30px; margin-right: 5px;">$ </p>
+              <p style="font-size: 24pt;;">8</p>
+              <p style="align-self: flex-end; margin-bottom: 30px; margin-left: 5px;">/month</p>
+            </div>
+            <hr>
+            <p><b>20</b> Projects</p>
+            <p><b>20</b> Pages</p>
+            <p><b>200</b> Mb Disk Space</p>
+            <div style="text-align: center;">
+              <button onclick="buy2()">
+                BUY NOW 
+              </button>
+            </div>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-header">
+            <p>ADVANCED</p>
+          </div>
+          <div class="card-content">
+            <div class="card-price">
+              <p style="align-self: flex-start; margin-top: 30px; margin-right: 5px;">$ </p>
+              <p style="font-size: 24pt;;">12</p>
+              <p style="align-self: flex-end; margin-bottom: 30px; margin-left: 5px;">/month</p>
+            </div>
+            <hr>
+            <p><b>40</b> Projects</p>
+            <p><b>40</b> Pages</p>
+            <p><b>500</b> Mb Disk Space</p>
+            <div style="text-align: center;">
+              <button onclick="buy3()">
+                BUY NOW 
+              </button>
+            </div>
+          </div>
+          </div>
+        </div>
+      </div>
+      <h1 style="color: #969696; text-align: center;">Frequently Asked Questions</h1>
+      <div style="display: flex; flex-direction: row; align-items: center; margin: 0px 200px; align-self: center;">
+        <div style="display: flex; flex-direction: column;">
+          <p style="color: #969696; width: 500px; text-align: center;">How does free trial work?</p>
+          <p style="color: #BEBEBE;">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur a diam nec augue tincidunt accumsan. In dignissim laoreet ipsum eu interdum</p>
+        </div>
+        <div style="display: flex; flex-direction: column;">
+          <p style="color: #969696; width: 500px; text-align: center;">Can I cancel any time?</p>
+          <p style="color: #BEBEBE;">Aliquam erat volutpat. Etiam luctus massa ex, at tempus tellus blandit quis. Sed quis neque tellus. Donec maximus ipsum in malesuada hendrerit</p>
+        </div>
+      </div>
+    </div>
+    
+    <script>
+      function buy1() {
+        alert('Basic subscription purchase success');
+      }
+      function buy2() {
+        alert('Standard subscription purchase success');
+      }
+      function buy3() {
+        alert('Advanced subscription purchase success');
+      }
+    </script>
+  </body>
+</html>
